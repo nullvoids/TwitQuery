@@ -16,3 +16,46 @@
  @import "font-awesome-sprockets";
  @import "font-awesome";
 
+ * {
+ 	font-family: sans-serif;
+ 	color: gold;
+
+ }
+
+ html, body { 
+ 	background-image: url("/images/gray_texture.png"); 
+ }
+
+ a {
+ 	color: white;
+ 	text-decoration: none;
+ 	transition: .7s ease;
+
+ }
+
+ a:visited {
+ 	color:gold;
+ }
+
+ a:hover {
+ 	color: #43F1D9;
+ }
+
+ .site-logo h1{
+ 	color: white;
+ 	transition: 2s ease;
+ }
+
+
+ .site-logo h1:hover {
+ 	color: gold;
+ }
+
+ .site-logo i {
+ 	color: #43F1D9;
+ }
+
+ li {
+ 	color: white;
+ 	padding: .2em;
+ }

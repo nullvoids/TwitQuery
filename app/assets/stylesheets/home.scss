@@ -1,3 +1,27 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+input {
+	color: black
+}
+
+.search-bar {
+    width: 160px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #585858;
+    border-radius: 4px;
+    background-color: rgba(21, 20, 20, 0.18);
+    padding: .3em;
+}
+
+
+.sidebar {
+    text-align: center;
+}
+
+
+.keyword {
+	padding: .3em;
+}
