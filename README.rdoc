@@ -1,4 +1,4 @@
-== README
+== TwitQuery
 
 This application does the following:
 
