@@ -1,2 +1,12 @@
-<h1>Tweets#index</h1>
-<p>Find me in app/views/tweets/index.html.erb</p>
+<div>
+	<h3>Tweets for "<%= @keyword.content %>":</h3>
+	<ul class="tweet-list">
+		<% @tweets.each do |tweet| %>
+			<li>
+				<a target="_blank" href="<%= tweet.url %>">
+					<%= tweet.content %>
+				</a>
+			</li>
+		<% end %>
+	</ul>
+</div>
