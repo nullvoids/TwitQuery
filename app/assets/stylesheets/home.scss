@@ -3,7 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 input {
-	color: black
+	color: black;
+    margin-top: 1em;
 }
 
 .search-bar {
@@ -15,7 +16,6 @@ input {
     background-color: rgba(21, 20, 20, 0.18);
     padding: .3em;
 }
-
 
 .sidebar {
     text-align: center;
