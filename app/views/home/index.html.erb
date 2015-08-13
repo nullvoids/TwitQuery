@@ -1,2 +1,22 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="search-bar">
+
+	<%= form_tag("/search", method: "get") do %>
+	  <%= label_tag(:q, "Search for:") %>
+	  <%= text_field_tag(:q , nil, placeholder: "HelloWorld") %>
+	  <%= submit_tag("Search") %>
+	<% end %>
+
+</div>
+
+
+<div class="sidebar">
+	<h3>Recent Keywords:</h3>
+	<% @newest_search_terms.each do | search_term | %>
+		<div class="keyword">
+			<a href="<%= tweets_path( search_term.id ) %>">
+				<%= search_term.content %>
+			</a>
+		</div>
+	<% end %>
+	</ul>
+</div>
