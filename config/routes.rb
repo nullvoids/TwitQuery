@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
   
+  get 'tweets/index'
+
+  get 'search/index'
+
+  get 'keywords/index'
+
+  get 'home/index'
+
   #Homepage
   root 'home#index'
 
