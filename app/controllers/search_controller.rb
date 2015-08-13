@@ -1,4 +1,5 @@
 class SearchController < ApplicationController
+  include TwitterRequestHandler
   def index
   	raise ActionController::RoutingError.new('Not Found') if params[:q].nil?
   	query = params[:q]
