@@ -1,4 +1,5 @@
 == TwitQuery
+This was just a weekend side project to familiarize myself with the Twitter api/Oauth.
 
 This application does the following:
 
